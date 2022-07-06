@@ -4,7 +4,7 @@ import time
 import datetime
 
 udpSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-destination = ('192.168.57.1', 8888)
+destination = ('192.168.99.122', 8888)
 
 i = 1
 while True:

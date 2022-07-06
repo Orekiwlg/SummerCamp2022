@@ -1,7 +1,7 @@
 import socket
 
 tcpSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-destination = ('192.168.57.1', 8888)
+destination = ('192.168.99.122', 8888)
 tcpSocket.connect(destination)
 
 while True:
